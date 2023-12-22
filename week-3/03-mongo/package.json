@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+<<<<<<< HEAD
+=======
+    "express": "^4.18.2",
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
     "jest": "^29.7.0",
     "mongoose": "^8.0.3",
     "supertest": "^6.3.3",

@@ -37,7 +37,10 @@ app.get('/file/:filename', function (req, res) {
     });
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
 app.all('*', (req, res) => {
     res.status(404).send('Route not found');
 });

@@ -1,19 +1,33 @@
 ## Create a course selling website
 
 ### Description
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
 Same as the last assignment but you need to use jwts for authentication.
 We have introduced the signgin endpoints for both users and admins.
 For this one, in every authenticated requests, you need to send the jwt in headers (Authorization : "Bearer <actual token>").
 You need to use mongodb to store all the data persistently.
 
 ## Routes
+<<<<<<< HEAD
 ### Admin Routes:
+=======
+
+### Admin Routes:
+
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
 - POST /admin/signup
   Description: Creates a new admin account.
   Input Body: { username: 'admin', password: 'pass' }
   Output: { message: 'Admin created successfully' }
 - POST /admin/signin
+<<<<<<< HEAD
   Description: Creates a new admin account.
+=======
+  Description: Logs in an admin account.
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
   Input Body: { username: 'admin', password: 'pass' }
   Output: { token: 'your-token' }
 - POST /admin/courses
@@ -26,12 +40,20 @@ You need to use mongodb to store all the data persistently.
   Output: { courses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
 
 ### User routes
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
 - POST /users/signup
   Description: Creates a new user account.
   Input: { username: 'user', password: 'pass' }
   Output: { message: 'User created successfully' }
 - POST /users/signin
+<<<<<<< HEAD
   Description: Creates a new user account.
+=======
+  Description: Logs in a user account.
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
   Input: { username: 'user', password: 'pass' }
   Output: { token: 'your-token' }
 - GET /users/courses
@@ -45,4 +67,8 @@ You need to use mongodb to store all the data persistently.
 - GET /users/purchasedCourses
   Description: Lists all the courses purchased by the user.
   Input: Headers: { 'Authorization': 'Bearer <your-token>' }
+<<<<<<< HEAD
   Output: { purchasedCourses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
+=======
+  Output: { purchasedCourses: [ { id: 1, title: 'course title', description: 'course description', price: 100, imageLink: 'https://linktoimage.com', published: true }, ... ] }
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275

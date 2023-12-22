@@ -41,6 +41,7 @@
  */
   const express = require('express');
   const bodyParser = require('body-parser');
+<<<<<<< HEAD
   const fs=require('fs');
   const app = express();
   const port=3000;
@@ -148,5 +149,11 @@
   app.listen(port,()=>{
     console.log(`Server is running on ${port}`);
   })
+=======
+  
+  const app = express();
+  
+  app.use(bodyParser.json());
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
   
   module.exports = app;

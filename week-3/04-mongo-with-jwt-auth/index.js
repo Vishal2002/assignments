@@ -9,6 +9,11 @@ app.use(bodyParser.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
+<<<<<<< HEAD
 app.listen(3000, () => {
+=======
+const PORT = 3000;
+app.listen(PORT, () => {
+>>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
     console.log(`Server is running on port ${PORT}`);
 });
