@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,12 +12,19 @@
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.3",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "express": "^4.18.2",
 >>>>>>> 86bdc525b6a13a9b10f6a3babb28fcc538497275
+=======
+    "express": "^4.18.2",
+>>>>>>> parent of d07fd92 (week 3 push)
     "jest": "^29.7.0",
     "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "punycode": "^2.3.1",
     "supertest": "^6.3.3",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "zod": "^3.22.4"
   }
 }
